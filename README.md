@@ -5,6 +5,7 @@ ScleraU-Net2 is developed by the Visual Computing Group (VCG) of Democritus Univ
 3) SpatialDropout2D to improve generalization ability during training
 
 
+
 In order to run the code, the different datasets used for the competition need to be downloaded separately and placed in the “data” folder following the pattern:
 
 {DATASET_NAME} / {train / validate / test} / {images / masks}
