@@ -32,9 +32,9 @@ NAME = f"{Dataset}_unet_{IMG_WIDTH}x{IMG_HEIGHT}_{batch_size}_{filters}f_{drop}d
 
 saved_model = "MASD+SMD_unetGN_560x320_8_16f_0.4d_False_6_16g_1607004402.h5"
 
-TRAIN_DATA_PATH = f"D:/SSBC DATASETS/Combined/{Dataset}/train"
-VAL_DATA_PATH = f"D:/SSBC DATASETS/Combined/{Dataset}/validate"
-TEST_DATA_PATH = f"D:/SSBC DATASETS/Combined/{Dataset}/test"
+TRAIN_DATA_PATH = f"data/{Dataset}/train
+VAL_DATA_PATH = f"data/{Dataset}/validation
+TEST_DATA_PATH = f"data/{Dataset}/test
 
 
 #   Train Mode
